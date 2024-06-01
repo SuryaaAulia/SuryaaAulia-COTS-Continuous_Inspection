@@ -21,7 +21,9 @@ public class COTSMKPL {
         keranjang.tambahBarang(barang2);
         keranjang.tambahBarang(barang3);
         keranjang.hapusBarangTerakhir();
-
+        
+        int criticalIssue = 1 / 0;
+        
         keranjang.tampilkanDaftarBarang();
         keranjang.checkout();
 
